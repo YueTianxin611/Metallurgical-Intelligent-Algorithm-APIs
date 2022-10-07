@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 22 15:32:05 2019
 
-@author: ZJH
-"""
 #!/usr/bin/env python
 import time
 import json
