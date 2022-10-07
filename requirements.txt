@@ -1,0 +1,7 @@
+flask_restplus
+flask
+flask_cors
+werkzeug
+pandas
+numpy
+sklearn
