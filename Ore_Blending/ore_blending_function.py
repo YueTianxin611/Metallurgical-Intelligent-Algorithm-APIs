@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 22 15:46:54 2019
-
-@author: ZJH
-"""
 import numpy as np
 import pulp as pulp
 import pandas as pd
