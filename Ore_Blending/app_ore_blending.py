@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 22 15:31:10 2019
-
-@author: ZJH
-"""
 
 #!/usr/bin/env python
 from flask_restplus import Api, Resource,fields, reqparse
