@@ -2,7 +2,7 @@
 """
 Created on Tue nov 5 14:40:06 2019
 
-@author: ZHY
+@author: YTX
 
 """
 import pandas as pd
@@ -23,14 +23,4 @@ def affinitypropagation_cal(df,damping,max_iter,convergence_iter,copy, preferenc
     n_iter = clu.n_iter_
 
     return cluster_centers_indices, cluster_centers, labels, affinity_matrix, n_iter
-'''
-if __name__ == '__main__':
-    df = pd.read_csv('C:\\Users\\lq123\\Desktop\\F4_Stand_loaded_from_Observer=1.csv')
-    cluster_centers_indices, cluster_centers, labels, affinity_matrix, n_iter = affinitypropagation_cal(df,damping=0.5,
-        max_iter=200, convergence_iter=15, copy=True, preference=100, affinity='euclidean',verbose=False)
-    print(cluster_centers_indices)
-    print(cluster_centers)
-    print(labels)
-    print(affinity_matrix)
-    print(n_iter)
-'''
+
